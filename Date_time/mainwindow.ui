@@ -55,6 +55,9 @@
     <property name="pixmap">
      <pixmap resource="resources.qrc">:/new/prefix1/Logo.png</pixmap>
     </property>
+    <property name="margin">
+     <number>0</number>
+    </property>
    </widget>
    <widget class="QPushButton" name="Status_Read">
     <property name="geometry">
@@ -65,8 +68,14 @@
       <height>81</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(252, 233, 79);
+font: italic 11pt &quot;Ubuntu&quot;;
+color: rgb(204, 0, 0);
+selection-color: rgb(115, 210, 22);</string>
+    </property>
     <property name="text">
-     <string>Status_RTC</string>
+     <string>STATUS_CHECK</string>
     </property>
    </widget>
    <widget class="QPushButton" name="set_date">
@@ -77,6 +86,12 @@
       <width>161</width>
       <height>81</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(204, 0, 0);
+font: italic 11pt &quot;Ubuntu&quot;;
+selection-background-color: rgb(78, 154, 6);
+background-color: rgb(252, 233, 79);</string>
     </property>
     <property name="text">
      <string>SET DATE&amp; TIME</string>
@@ -90,6 +105,11 @@
       <width>161</width>
       <height>81</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(204, 0, 0);
+font: italic 11pt &quot;Ubuntu&quot;;
+background-color: rgb(252, 233, 79);</string>
     </property>
     <property name="text">
      <string>I2CREG_WRITE</string>
